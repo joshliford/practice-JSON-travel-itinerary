@@ -1,0 +1,42 @@
+{
+    "tripName": "Are We There Yet?",
+    "traveler": {
+            "name": "John Smith",
+            "contactInfo": {
+                "email": "john.smith@email.com",
+                "phone": "314-867-5309"
+            }
+        },
+    "destinations": [
+        {
+            "location": "Italy",
+            "arrivalDate": "2026-05-22",
+            "departureDate": "2026-06-05",
+            "activities": [
+                {
+                    "title": "Gelato Tasting",
+                    "time": "11:00 AM"
+                },
+                {
+                    "title": "Wine Tasting",
+                    "time": "4:00 PM"
+                }
+            ]
+        },
+        {
+            "location": "Greece",
+            "arrivalDate": "2026-09-01",
+            "departureDate": "2026-09-15",
+            "activities": [
+                {
+                    "title": "Tour Athens",
+                    "time": "7:00 AM"
+                },
+                {
+                    "title": "Tour Crete",
+                    "time": "8:00 AM"
+                }
+            ]
+        }
+    ]
+}
