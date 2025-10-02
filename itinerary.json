@@ -1,8 +1,10 @@
 {
     "tripName": "Are We There Yet?",
-    "traveler": {
+    "traveler": 
+        {
             "name": "John Smith",
-            "contactInfo": {
+            "contactInfo": 
+            {
                 "email": "john.smith@email.com",
                 "phone": "314-867-5309"
             }
@@ -12,7 +14,13 @@
             "location": "Italy",
             "arrivalDate": "2026-05-22",
             "departureDate": "2026-06-05",
-            "activities": [
+            "transportation": 
+            {
+                "mode": "Flight",
+                "cost": "$900.00"
+            },
+            "activities": 
+            [
                 {
                     "title": "Gelato Tasting",
                     "time": "11:00 AM"
@@ -27,7 +35,13 @@
             "location": "Greece",
             "arrivalDate": "2026-09-01",
             "departureDate": "2026-09-15",
-            "activities": [
+            "transportation": 
+            {
+                "mode": "Flight",
+                "cost": "$1500.00"
+            },
+            "activities": 
+            [
                 {
                     "title": "Tour Athens",
                     "time": "7:00 AM"
@@ -35,6 +49,27 @@
                 {
                     "title": "Tour Crete",
                     "time": "8:00 AM"
+                }
+            ]
+        },
+        {
+            "location": "St. Louis, MO",
+            "arrivalDate": "2025-10-01",
+            "departureDate": "2025-10-07",
+            "transportation": 
+            {
+                "mode": "Rental Car",
+                "cost": "$200.00"
+            },
+            "activities": 
+            [
+                {
+                    "title": "Arch",
+                    "time": "10:00 AM"
+                },
+                {
+                    "title": "St. Louis Zoo",
+                    "time": "12:00 PM"
                 }
             ]
         }
